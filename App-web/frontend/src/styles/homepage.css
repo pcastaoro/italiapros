@@ -1,24 +1,24 @@
 .homepage-center-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    display: flex;                /* Imposta un layout flessibile (Flexbox) per disporre gli elementi figli in riga o colonna */
+    flex-direction: row;          /* Dispone gli elementi figli in una riga orizzontale */
+    justify-content: center;      /* Allinea gli elementi orizzontalmente al centro del contenitore */
+    align-items: center;          /* Allinea gli elementi verticalmente al centro del contenitore */
+    height: 100vh;                /* Imposta l'altezza del contenitore al 100% dell'altezza della viewport */
 }
 
 .homepage-logo-link {
-    margin: 20px 0;
-    text-decoration: none;
+    margin: 20px 0;               /* Aggiunge un margine di 20px sopra e sotto ogni link */
+    text-decoration: none;        /* Rimuove la sottolineatura predefinita dei link */
 }
 
 .homepage-logo {
-    max-width: 600px;
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 600px;             /* Imposta una larghezza massima di 600px per l'immagine del logo */
+    width: 100%;                  /* Imposta la larghezza del logo al 100% del contenitore genitore */
+    border-radius: 10px;          /* Applica un arrotondamento di 10px agli angoli dell'immagine */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  /* Anima la trasformazione e l'ombra con una durata di 0.3s */
 }
 
 .homepage-logo:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);       /* Aumenta la dimensione del logo del 5% quando il mouse passa sopra */
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.2); /* Aggiunge un'ombra intorno al logo con una sfumatura bianca semi-trasparente */
 }

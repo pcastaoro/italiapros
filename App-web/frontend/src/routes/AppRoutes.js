@@ -5,7 +5,6 @@ import MainLayout from '../layouts/MainLayout';
 import HomePage from '../pages/HomePage';
 import AboutPage from '../pages/AboutPage';
 import Lolpage from "../pages/LolPage";
-import ValorantPage from "../pages/ValorantPage";
 
 const AppRoutes = () => {
     const location = useLocation();
@@ -19,6 +18,7 @@ const AppRoutes = () => {
     return (
         <AnimatePresence mode="wait">
             <Routes location={location} key={location.key}>
+
                 <Route
                     path="/"
                     element={
@@ -34,6 +34,7 @@ const AppRoutes = () => {
                         </MainLayout>
                     }
                 />
+
                 <Route
                     path="/about"
                     element={
@@ -49,6 +50,7 @@ const AppRoutes = () => {
                         </MainLayout>
                     }
                 />
+
                 <Route
                     path="/lol"
                     element={
@@ -64,21 +66,7 @@ const AppRoutes = () => {
                         </MainLayout>
                     }
                 />
-                <Route
-                    path="/valorant"
-                    element={
-                        <MainLayout>
-                            <motion.div
-                                initial="initial"
-                                animate="animate"
-                                exit="exit"
-                                variants={pageVariants}
-                            >
-                                <ValorantPage />
-                            </motion.div>
-                        </MainLayout>
-                    }
-                />
+
             </Routes>
         </AnimatePresence>
     );

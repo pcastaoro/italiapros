@@ -21,31 +21,19 @@
 
 .aboutus-title {
     font-size: 36px; /* Dimensione del font per il titolo principale */
-    color: #2E5090; /* Colore del testo */
+    color: #ffffff; /* Colore del testo */
     font-family: 'Arial', sans-serif; /* Famiglia di caratteri */
     font-weight: 600; /* Spessore del testo medio-grassetto */
     margin: 0; /* Elimina i margini standard */
     text-align: left; /* Allinea il titolo al lato sinistro */
 }
 
-.aboutus-subtitle {
-    font-size: 24px; /* Dimensione del font per il sottotitolo */
-    color: #1B998B; /* Colore del testo del sottotitolo */
-    font-family: 'Arial', sans-serif; /* Famiglia di caratteri */
-    font-weight: 500; /* Spessore più sottile rispetto al titolo */
-    margin: 0 0 10px 0; /* Margine inferiore per separare dal contenuto successivo */
-}
-
 .aboutus-description {
     font-size: 16px; /* Dimensione del testo descrittivo */
     line-height: 1.6; /* Interlinea migliorata per leggibilità */
-    color: #D3D3D3; /* Colore del testo */
+    color: rgb(209, 209, 209); /* Colore del testo */
     font-family: 'Georgia', serif; /* Famiglia di caratteri serif per il contenuto */
     margin: 0 0 10px 0; /* Spaziatura inferiore tra le descrizioni */
-}
-
-.aboutus-description:last-child {
-    margin-bottom: 0; /* Rimuove il margine inferiore per l'ultimo elemento */
 }
 
 /* Responsive design */

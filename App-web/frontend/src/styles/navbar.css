@@ -1,36 +1,36 @@
 .navbar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: fixed;
-    inset: 0 0 auto 0; /* Semplifica 'top', 'left', 'right' */
-    height: 60px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background: #1C1F26;
-    color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;                            /* Imposta Flexbox per disporre gli elementi figli in una riga */
+    justify-content: flex-start;              /* Allinea gli elementi orizzontalmente a sinistra */
+    align-items: center;                      /* Allinea gli elementi verticalmente al centro */
+    position: fixed;                          /* Fissa la navbar nella parte superiore della pagina */
+    inset: 0 0 auto 0;                        /* Imposta top, right e left a 0, lasciando auto il bottom */
+    height: 60px;                             /* Imposta l'altezza della navbar a 60px */
+    width: 100%;                              /* La navbar occupa il 100% della larghezza */
+    padding: 0;                               /* Rimuove ogni padding interno */
+    margin: 0;                                /* Rimuove ogni margine esterno */
+    background: linear-gradient(to bottom, #1c1f26, #20292f); /* Applica un gradiente di sfondo verticale */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Aggiunge un bordo inferiore sottile e semi-trasparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera sotto la navbar */
 }
 
 .logo-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    transition: transform 0.5s ease, filter 0.5s ease; /* Transizione applicata in generale */
+    background: none;                         /* Rimuove lo sfondo del pulsante */
+    border: none;                             /* Rimuove il bordo del pulsante */
+    cursor: pointer;                          /* Cambia il cursore in "puntatore" quando si passa sopra il pulsante */
+    padding: 0;                               /* Rimuove il padding interno del pulsante */
+    margin: 0;                                /* Rimuove il margine esterno del pulsante */
+    display: flex;                            /* Imposta Flexbox per disporre gli elementi interni */
+    align-items: center;                      /* Allinea gli elementi interni verticalmente al centro */
+    justify-content: flex-end;                /* Allinea gli elementi interni orizzontalmente a destra */
+    transition: transform 0.5s ease, filter 0.5s ease; /* Anima la trasformazione e il filtro con una durata di 0.5s */
 }
 
 .logo-icon {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
+    width: 40px;                              /* Imposta la larghezza dell'icona del logo a 40px */
+    height: 40px;                             /* Imposta l'altezza dell'icona del logo a 40px */
+    margin-left: 10px;                        /* Aggiunge un margine di 10px a sinistra del logo */
 }
 
 .navbar .logo-button:not(:disabled):hover {
-    transform: scale(1.2); /* Ingrossa l'icona al passaggio del mouse */
+    transform: scale(1.2);                    /* Ingrandisce il pulsante del 20% quando si passa sopra con il mouse */
 }
