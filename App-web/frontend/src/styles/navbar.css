@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    inset: 0 0 auto 0; /* Semplifica 'top', 'left', 'right' */
+    height: 60px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #1C1F26;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: transform 0.5s ease, filter 0.5s ease; /* Transizione applicata in generale */
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.navbar .logo-button:not(:disabled):hover {
+    transform: scale(1.2); /* Ingrossa l'icona al passaggio del mouse */
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "game": "LOL",
+    "name": "Faker",
+    "age": 27,
+    "role": "Mid",
+    "rank": "Challenger",
+    "team": "T1"
+  },
+  {
+    "id": 2,
+    "game": "LOL",
+    "name": "Chovy",
+    "age": 24,
+    "role": "Mid",
+    "rank": "Grandmaster",
+    "team": "Gen.G"
+  },
+  {
+    "id": 3,
+    "game": "LOL",
+    "name": "Ruler",
+    "age": 25,
+    "role": "Adc",
+    "rank": "Master",
+    "team": "JD Gaming"
+  },
+  {
+    "id": 4,
+    "game": "LOL",
+    "name": "Deft",
+    "age": 26,
+    "role": "Adc",
+    "rank": "Diamond 1",
+    "team": "DRX"
+  },
+  {
+    "id": 5,
+    "game": "LOL",
+    "name": "Zeus",
+    "age": 21,
+    "role": "Top",
+    "rank": "Challenger",
+    "team": "T1"
+  },
+  {
+    "id": 6,
+    "game": "LOL",
+    "name": "Oner",
+    "age": 22,
+    "role": "Jung",
+    "rank": "Master",
+    "team": "T1"
+  },
+  {
+    "id": 7,
+    "game": "LOL",
+    "name": "Canyon",
+    "age": 24,
+    "role": "Jung",
+    "rank": "Grandmaster",
+    "team": "DK"
+  },
+  {
+    "id": 8,
+    "game": "LOL",
+    "name": "Keria",
+    "age": 23,
+    "role": "Supp",
+    "rank": "Challenger",
+    "team": "T1"
+  },
+  {
+    "id": 9,
+    "game": "LOL",
+    "name": "Ming",
+    "age": 25,
+    "role": "Supp",
+    "rank": "Master",
+    "team": "RNG"
+  },
+  {
+    "id": 10,
+    "game": "LOL",
+    "name": "Bin",
+    "age": 23,
+    "role": "Top",
+    "rank": "Grandmaster",
+    "team": "BLG"
+  },
+  {
+    "id": 11,
+    "game": "LOL",
+    "name": "Gumayusi",
+    "age": 21,
+    "role": "Adc",
+    "rank": "Challenger",
+    "team": "T1"
+  },
+  {
+    "id": 12,
+    "game": "LOL",
+    "name": "BeryL",
+    "age": 26,
+    "role": "Supp",
+    "rank": "Master",
+    "team": "DRX"
+  },
+  {
+    "id": 13,
+    "game": "LOL",
+    "name": "Rascal",
+    "age": 24,
+    "role": "Top",
+    "rank": "Diamond 2",
+    "team": "KT Rolster"
+  },
+  {
+    "id": 14,
+    "game": "LOL",
+    "name": "ShowMaker",
+    "age": 25,
+    "role": "Mid",
+    "rank": "Challenger",
+    "team": "DK"
+  },
+  {
+    "id": 15,
+    "game": "LOL",
+    "name": "Lehends",
+    "age": 24,
+    "role": "Supp",
+    "rank": "Grandmaster",
+    "team": "Gen.G"
+  },
+  {
+    "id": 16,
+    "game": "LOL",
+    "name": "Tarzan",
+    "age": 23,
+    "role": "Jung",
+    "rank": "Challenger",
+    "team": "LNG"
+  },
+  {
+    "id": 17,
+    "game": "LOL",
+    "name": "Knight",
+    "age": 25,
+    "role": "Mid",
+    "rank": "Master",
+    "team": "TES"
+  },
+  {
+    "id": 18,
+    "game": "LOL",
+    "name": "369",
+    "age": 23,
+    "role": "Top",
+    "rank": "Diamond 1",
+    "team": "JD Gaming"
+  },
+  {
+    "id": 19,
+    "game": "LOL",
+    "name": "JackeyLove",
+    "age": 24,
+    "role": "Adc",
+    "rank": "Challenger",
+    "team": "TES"
+  },
+  {
+    "id": 20,
+    "game": "LOL",
+    "name": "Scout",
+    "age": 25,
+    "role": "Mid",
+    "rank": "Grandmaster",
+    "team": "EDG"
+  },
+  {
+    "id": 21,
+    "game": "LOL",
+    "name": "Viper",
+    "age": 24,
+    "role": "Adc",
+    "rank": "Master",
+    "team": "Hanwha Life"
+  },
+  {
+    "id": 22,
+    "game": "LOL",
+    "name": "Meiko",
+    "age": 25,
+    "role": "Supp",
+    "rank": "Diamond 1",
+    "team": "EDG"
+  },
+  {
+    "id": 23,
+    "game": "LOL",
+    "name": "Doinb",
+    "age": 26,
+    "role": "Mid",
+    "rank": "Challenger",
+    "team": "LNG"
+  },
+  {
+    "id": 24,
+    "game": "LOL",
+    "name": "SofM",
+    "age": 25,
+    "role": "Jung",
+    "rank": "Grandmaster",
+    "team": "Weibo Gaming"
+  },
+  {
+    "id": 25,
+    "game": "LOL",
+    "name": "Huanfeng",
+    "age": 23,
+    "role": "Adc",
+    "rank": "Master",
+    "team": "Weibo Gaming"
+  },
+  {
+    "id": 26,
+    "game": "LOL",
+    "name": "TheShy",
+    "age": 26,
+    "role": "Top",
+    "rank": "Diamond 1",
+    "team": "Weibo Gaming"
+  },
+  {
+    "id": 27,
+    "game": "LOL",
+    "name": "Crisp",
+    "age": 25,
+    "role": "Supp",
+    "rank": "Grandmaster",
+    "team": "BLG"
+  },
+  {
+    "id": 28,
+    "game": "LOL",
+    "name": "Khan",
+    "age": 25,
+    "role": "Top",
+    "rank": "Challenger",
+    "team": "DK"
+  },
+  {
+    "id": 29,
+    "game": "LOL",
+    "name": "Bdd",
+    "age": 26,
+    "role": "Mid",
+    "rank": "Master",
+    "team": "KT Rolster"
+  },
+  {
+    "id": 30,
+    "game": "LOL",
+    "name": "Uzi",
+    "age": 25,
+    "role": "Adc",
+    "rank": "Challenger",
+    "team": "RNG"
+  },
+  {
+    "id": 31,
+    "game": "LOL",
+    "name": "Perkz",
+    "age": 24,
+    "role": "Mid",
+    "rank": "Grandmaster",
+    "team": "Team Vitality"
+  },
+  {
+    "id": 32,
+    "game": "LOL",
+    "name": "Rekkles",
+    "age": 25,
+    "role": "Adc",
+    "rank": "Master",
+    "team": "Fnatic"
+  },
+  {
+    "id": 33,
+    "game": "LOL",
+    "name": "Wunder",
+    "age": 26,
+    "role": "Top",
+    "rank": "Diamond 1",
+    "team": "Fnatic"
+  },
+  {
+    "id": 34,
+    "game": "LOL",
+    "name": "Hylissang",
+    "age": 26,
+    "role": "Supp",
+    "rank": "Grandmaster",
+    "team": "Fnatic"
+  },
+  {
+    "id": 35,
+    "game": "LOL",
+    "name": "Caps",
+    "age": 23,
+    "role": "Mid",
+    "rank": "Challenger",
+    "team": "G2"
+  },
+  {
+    "id": 36,
+    "game": "LOL",
+    "name": "Jankos",
+    "age": 25,
+    "role": "Jung",
+    "rank": "Master",
+    "team": "G2"
+  },
+  {
+    "id": 37,
+    "game": "LOL",
+    "name": "Mikyx",
+    "age": 24,
+    "role": "Supp",
+    "rank": "Grandmaster",
+    "team": "Excel"
+  },
+  {
+    "id": 38,
+    "game": "LOL",
+    "name": "Hans Sama",
+    "age": 26,
+    "role": "Adc",
+    "rank": "Challenger",
+    "team": "Team Liquid"
+  },
+  {
+    "id": 39,
+    "game": "LOL",
+    "name": "CoreJJ",
+    "age": 25,
+    "role": "Supp",
+    "rank": "Master",
+    "team": "Team Liquid"
+  },
+  {
+    "id": 40,
+    "game": "LOL",
+    "name": "Bwipo",
+    "age": 25,
+    "role": "Top",
+    "rank": "Grandmaster",
+    "team": "Team Liquid"
+  },
+  {
+    "id": 41,
+    "game": "LOL",
+    "name": "Impact",
+    "age": 26,
+    "role": "Top",
+    "rank": "Master",
+    "team": "Evil Geniuses"
+  },
+  {
+    "id": 42,
+    "game": "LOL",
+    "name": "Inspired",
+    "age": 24,
+    "role": "Jung",
+    "rank": "Challenger",
+    "team": "Evil Geniuses"
+  },
+  {
+    "id": 43,
+    "game": "LOL",
+    "name": "Jojo",
+    "age": 22,
+    "role": "Mid",
+    "rank": "Diamond 1",
+    "team": "Evil Geniuses"
+  },
+  {
+    "id": 44,
+    "game": "LOL",
+    "name": "Danny",
+    "age": 21,
+    "role": "Adc",
+    "rank": "Grandmaster",
+    "team": "Evil Geniuses"
+  },
+  {
+    "id": 45,
+    "game": "LOL",
+    "name": "Vulcan",
+    "age": 25,
+    "role": "Supp",
+    "rank": "Master",
+    "team": "Evil Geniuses"
+  },
+  {
+    "id": 46,
+    "game": "LOL",
+    "name": "Armut",
+    "age": 23,
+    "role": "Top",
+    "rank": "Grandmaster",
+    "team": "Mad Lions"
+  },
+  {
+    "id": 47,
+    "game": "LOL",
+    "name": "Elyoya",
+    "age": 22,
+    "role": "Jung",
+    "rank": "Master",
+    "team": "Mad Lions"
+  },
+  {
+    "id": 48,
+    "game": "LOL",
+    "name": "Humanoid",
+    "age": 24,
+    "role": "Mid",
+    "rank": "Challenger",
+    "team": "Mad Lions"
+  },
+  {
+    "id": 49,
+    "game": "LOL",
+    "name": "Kaiser",
+    "age": 25,
+    "role": "Supp",
+    "rank": "Grandmaster",
+    "team": "Mad Lions"
+  },
+  {
+    "id": 50,
+    "game": "LOL",
+    "name": "Carzzy",
+    "age": 22,
+    "role": "Adc",
+    "rank": "Master",
+    "team": "Mad Lions"
+  }
+]

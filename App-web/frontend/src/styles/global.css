@@ -1,0 +1,13 @@
+html, body {
+    margin: 0; /* Rimuove i margini predefiniti */
+    padding: 0; /* Rimuove i padding predefiniti */
+    width: 100%; /* Imposta la larghezza dell'elemento al 100% */
+    height: 100%; /* Imposta l'altezza dell'elemento al 100% */
+    overflow: auto; /* Permette lo scroll se il contenuto è più grande del viewport */
+    font-family: Arial, sans-serif; /* Specifica il font di default per il corpo del documento */
+    box-sizing: border-box; /* Includi il padding nel calcolo delle dimensioni */
+}
+
+* {
+    box-sizing: inherit; /* Applica lo stesso box-sizing usato da body e html */
+}

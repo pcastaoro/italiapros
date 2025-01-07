@@ -1,0 +1,68 @@
+.aboutus-container {
+    display: flex; /* Utilizza Flexbox per l'impaginazione */
+    flex-direction: column; /* Gli elementi figli sono disposti in colonna */
+    align-items: flex-start; /* Allinea gli elementi al lato sinistro */
+    justify-content: center; /* Centra gli elementi lungo l'asse verticale */
+    min-height: 89vh; /* Altezza minima relativa alla viewport */
+    padding: 20px 20px; /* Spaziatura interna (verticale e orizzontale) */
+    background: rgba(0, 0, 0, 0.1); /* Sfondo semi-trasparente */
+    border-radius: 10px; /* Angoli arrotondati */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
+    text-align: left; /* Allinea il testo a sinistra */
+    max-width: 1000px; /* Larghezza massima del contenitore */
+    margin: 80px auto auto; /* Margine superiore fisso, centrato orizzontalmente */
+}
+
+.aboutus-header, .aboutus-mission, .aboutus-commitment {
+    width: auto; /* Si adatta automaticamente al contenuto */
+    margin-bottom: 30px; /* Spaziatura inferiore tra gli elementi */
+    padding: 0; /* Rimuove ogni spaziatura interna */
+}
+
+.aboutus-title {
+    font-size: 36px; /* Dimensione del font per il titolo principale */
+    color: #2E5090; /* Colore del testo */
+    font-family: 'Arial', sans-serif; /* Famiglia di caratteri */
+    font-weight: 600; /* Spessore del testo medio-grassetto */
+    margin: 0; /* Elimina i margini standard */
+    text-align: left; /* Allinea il titolo al lato sinistro */
+}
+
+.aboutus-subtitle {
+    font-size: 24px; /* Dimensione del font per il sottotitolo */
+    color: #1B998B; /* Colore del testo del sottotitolo */
+    font-family: 'Arial', sans-serif; /* Famiglia di caratteri */
+    font-weight: 500; /* Spessore più sottile rispetto al titolo */
+    margin: 0 0 10px 0; /* Margine inferiore per separare dal contenuto successivo */
+}
+
+.aboutus-description {
+    font-size: 16px; /* Dimensione del testo descrittivo */
+    line-height: 1.6; /* Interlinea migliorata per leggibilità */
+    color: #D3D3D3; /* Colore del testo */
+    font-family: 'Georgia', serif; /* Famiglia di caratteri serif per il contenuto */
+    margin: 0 0 10px 0; /* Spaziatura inferiore tra le descrizioni */
+}
+
+.aboutus-description:last-child {
+    margin-bottom: 0; /* Rimuove il margine inferiore per l'ultimo elemento */
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+    .aboutus-container {
+        padding: 10px; /* Riduce il padding interno per schermi più piccoli */
+    }
+
+    .aboutus-title {
+        font-size: 28px; /* Riduce la dimensione del titolo per dispositivi mobili */
+    }
+
+    .aboutus-subtitle {
+        font-size: 20px; /* Riduce la dimensione del sottotitolo per dispositivi mobili */
+    }
+
+    .aboutus-description {
+        font-size: 16px; /* Mantiene la dimensione del testo della descrizione */
+    }
+}

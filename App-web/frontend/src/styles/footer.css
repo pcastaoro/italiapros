@@ -1,0 +1,49 @@
+.footer {
+    display: flex; /* Dispone gli elementi in riga */
+    flex-wrap: wrap; /* Permette la distribuzione su più righe se necessario */
+    justify-content: space-between; /* Allinea le principali sezioni agli estremi */
+    align-items: center; /* Centra verticalmente gli elementi */
+    position: fixed; /* Rende la barra sempre visibile in basso */
+    bottom: 0; /* Posiziona la barra al bordo inferiore */
+    left: 0; /* Posiziona la barra al bordo sinistro */
+    width: 100%; /* Occupa tutta la larghezza disponibile */
+    padding: 10px; /* Spaziatura interna */
+    box-sizing: border-box; /* Include padding e bordi nelle dimensioni */
+}
+
+.footer-social-links,
+.footer-menu-links {
+    display: flex; /* Dispone i link in riga */
+    flex-wrap: wrap; /* Permette la rottura su più righe se necessario */
+    gap: 20px; /* Spazio tra i link */
+}
+
+.footer-menu-links {
+    max-width: 50%; /* Limita la larghezza del menu al 50% dello spazio disponibile */
+}
+
+.footer a, .footer-menu-links a {
+    text-decoration: none; /* Rimuove la sottolineatura dal testo */
+    color: #ffffff; /* Imposta il colore del testo bianco */
+    font-size: 1rem; /* Dimensione del testo */
+    white-space: nowrap; /* Impedisce la rottura del testo su più righe */
+    overflow: hidden; /* Nasconde l'overflow del testo */
+    text-overflow: ellipsis; /* Mostra i puntini se il testo è troppo lungo */
+    transition: color 0.3s ease, transform 0.3s ease; /* Aggiunge un'animazione per il colore e la trasformazione */
+}
+
+.footer a:hover, .footer-menu-links a:hover {
+    transform: scale(1.1); /* Ingrandisce leggermente il testo al passaggio del mouse */
+}
+
+.social-icon {
+    filter: brightness(0) invert(1); /* Converte i colori per rendere l'icona bianca */
+    width: 25px; /* Larghezza dell'icona */
+    height: 25px; /* Altezza dell'icona */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Aggiunge un'animazione al passaggio del mouse */
+}
+
+.footer-social-links .social-icon:hover {
+    transform: scale(1.2); /* Ingrandisce l'icona in hover */
+    filter: brightness(0) invert(0.5); /* Cambia il filtro per un effetto visivo */
+}

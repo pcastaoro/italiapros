@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Coach Viper",
+    "age": 32,
+    "role": "Head Coach",
+    "team": "Tactical Titans",
+    "specialty": "Strategies and Positioning"
+  },
+  {
+    "id": 2,
+    "name": "Trainer Cypher",
+    "age": 28,
+    "role": "Analyst",
+    "team": "Vision Seekers",
+    "specialty": "Data Analysis"
+  },
+  {
+    "id": 3,
+    "name": "Sky Mentor",
+    "age": 40,
+    "role": "Team Psychologist",
+    "team": "Healing Heroes",
+    "specialty": "Mental Preparation"
+  }
+]

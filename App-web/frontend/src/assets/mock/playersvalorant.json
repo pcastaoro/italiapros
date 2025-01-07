@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "name": "Phoenix",
+    "age": 23,
+    "role": "Duelist",
+    "rank": "Immortal 2",
+    "team": "Team Flash",
+    "specialty": "Aggressive Plays"
+  },
+  {
+    "id": 2,
+    "name": "Sage",
+    "age": 27,
+    "role": "Sentinel",
+    "rank": "Radiant",
+    "team": "Healing Heroes",
+    "specialty": "Support"
+  },
+  {
+    "id": 3,
+    "name": "Brimstone",
+    "age": 35,
+    "role": "Controller",
+    "rank": "Diamond 3",
+    "team": "Tactical Titans",
+    "specialty": "Utility Control"
+  },
+  {
+    "id": 4,
+    "name": "Sova",
+    "age": 30,
+    "role": "Initiator",
+    "rank": "Ascendant 1",
+    "team": "Vision Seekers",
+    "specialty": "Intel Gathering"
+  },
+  {
+    "id": 5,
+    "name": "Jett",
+    "age": 21,
+    "role": "Duelist",
+    "rank": "Immortal 1",
+    "team": "Sky Dashers",
+    "specialty": "Fast Entry"
+  },
+  {
+    "id": 6,
+    "name": "Cypher",
+    "age": 32,
+    "role": "Sentinel",
+    "rank": "Platinum 1",
+    "team": "Info Guard",
+    "specialty": "Trap Setup"
+  },
+  {
+    "id": 7,
+    "name": "Omen",
+    "age": 34,
+    "role": "Controller",
+    "rank": "Gold 2",
+    "team": "Void Shadows",
+    "specialty": "Stealth Tactics"
+  },
+  {
+    "id": 8,
+    "name": "Skye",
+    "age": 29,
+    "role": "Initiator",
+    "rank": "Ascendant 2",
+    "team": "Wild Guides",
+    "specialty": "Healing and Tracking"
+  },
+  {
+    "id": 9,
+    "name": "Reyna",
+    "age": 28,
+    "role": "Duelist",
+    "rank": "Immortal 3",
+    "team": "Soul Strikers",
+    "specialty": "Solo Aggression"
+  },
+  {
+    "id": 10,
+    "name": "KAY/O",
+    "age": 5,
+    "role": "Initiator",
+    "rank": "Diamond 1",
+    "team": "Robot Enforcers",
+    "specialty": "Ability Suppression"
+  },
+  {
+    "id": 11,
+    "name": "Killjoy",
+    "age": 26,
+    "role": "Sentinel",
+    "rank": "Platinum 3",
+    "team": "Tech Masters",
+    "specialty": "Gadget Usage"
+  },
+  {
+    "id": 12,
+    "name": "Astra",
+    "age": 31,
+    "role": "Controller",
+    "rank": "Radiant",
+    "team": "Cosmic Force",
+    "specialty": "Global Control"
+  },
+  {
+    "id": 13,
+    "name": "Neon",
+    "age": 19,
+    "role": "Duelist",
+    "rank": "Ascendant 3",
+    "team": "Electric Dashers",
+    "specialty": "Speed Play"
+  },
+  {
+    "id": 14,
+    "name": "Raze",
+    "age": 25,
+    "role": "Duelist",
+    "rank": "Diamond 2",
+    "team": "Explosive Artists",
+    "specialty": "High Damage Plays"
+  },
+  {
+    "id": 15,
+    "name": "Fade",
+    "age": 27,
+    "role": "Initiator",
+    "rank": "Immortal 1",
+    "team": "Shadow Seekers",
+    "specialty": "Fear Manipulation"
+  },
+  {
+    "id": 16,
+    "name": "Harbor",
+    "age": 33,
+    "role": "Controller",
+    "rank": "Gold 3",
+    "team": "Tidal Force",
+    "specialty": "Water Control"
+  },
+  {
+    "id": 14,
+    "name": "Raze",
+    "age": 25,
+    "role": "Duelist",
+    "rank": "Diamond 2",
+    "team": "Explosive Artists",
+    "specialty": "High Damage Plays"
+  },
+  {
+    "id": 15,
+    "name": "Fade",
+    "age": 27,
+    "role": "Initiator",
+    "rank": "Immortal 1",
+    "team": "Shadow Seekers",
+    "specialty": "Fear Manipulation"
+  },
+  {
+    "id": 16,
+    "name": "Harbor",
+    "age": 33,
+    "role": "Controller",
+    "rank": "Gold 3",
+    "team": "Tidal Force",
+    "specialty": "Water Control"
+  }
+]
