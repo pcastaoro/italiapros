@@ -29,3 +29,12 @@
     transform: translateY(2px);  /* Abbassa il pulsante di 2px simulando un effetto di pressione */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra più ridotta durante la pressione */
 }
+
+.lolpage-container {
+    margin-top: 50px; /* Per rispettare il margine dalla navbar */
+    padding: 20px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
