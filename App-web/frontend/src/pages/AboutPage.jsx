@@ -1,11 +1,17 @@
 import React from 'react';
 import '../styles/aboutpage.css';
 
+// Component that renders the "About Us" page for ItaliaPros.
 const AboutUs = () => {
-    console.log('Rendering About Page'); // Aggiungi questo
+    // Log a message to the console to confirm rendering of the About Page.
+    console.log('Rendering About Page');
+
     return (
         <div className="aboutus-container">
+            {/* Title section for the "About Us" page */}
             <h1 className="aboutus-title">ItaliaPros</h1>
+
+            {/* Main content section that describes the purpose and vision of ItaliaPros */}
             <section className="aboutus-content">
                 <p className="aboutus-description">
                     <br/>
@@ -44,4 +50,5 @@ const AboutUs = () => {
     );
 };
 
+// Exporting the AboutUs component as the default export of this file.
 export default AboutUs;

@@ -1,0 +1,82 @@
+#root, .MuiPaper-root, .MuiContainer-root {
+    margin: 0 !important; /* Rimuove margini esterni */
+    padding: 0 !important; /* Rimuove padding interno */
+    background-color: rgba(28, 31, 38, 0) !important; /* Sfondo uniforme trasparente in modo da prendere quello del background */
+}
+
+/* --- Stile dei pulsanti --- */
+.MuiButton-contained {
+    background: linear-gradient(to bottom, #1c1f26, #20292f); /* Applica un gradiente di sfondo verticale */
+    font-weight: bold !important; /* Testo in grassetto */
+    margin: 0 !important; /* Rimuove margini esterni */
+    padding: 6px 12px !important; /* Spaziatura interna regolata */
+    border-radius: 0 !important; /* Rimuove bordi arrotondati */
+    box-shadow: none !important; /* Rimuove ombre */
+}
+
+/* --- Stile del campo di ricerca --- */
+.MuiOutlinedInput-root {
+    margin: 0 !important; /* Rimuove margini esterni */
+    padding: 0 !important; /* Rimuove padding interno */
+    background: linear-gradient(to bottom, #1c1f26, #20292f); /* Applica un gradiente di sfondo verticale */
+    color: #ffffff !important; /* Testo bianco */
+    border-radius: 0 !important; /* Rimuove bordi arrotondati */
+}
+
+/* --- Stile della tabella principale --- */
+.MuiDataGrid-root {
+    width: 100% !important; /* Adatta la larghezza al contenitore */
+    height: 100% !important; /* Adatta l'altezza al contenitore */
+    background-color: #1c1f26 !important; /* Sfondo uniforme scuro */
+    color: #ffffff !important; /* Testo bianco */
+    border: none !important; /* Rimuove bordi esterni */
+    box-sizing: border-box; /* Considera il padding nel calcolo della larghezza */
+}
+
+/* --- Intestazioni della tabella --- */
+.MuiDataGrid-columnHeaders, .MuiDataGrid-columnHeader {
+    color: #ffffff !important; /* Testo nero */
+    font-weight: bold !important; /* Testo in grassetto */
+    border-bottom: 1px solid #ffffff !important; /* Linea dorata sotto l'intestazione */
+    border-right: none !important; /* Rimuove bordi laterali */
+    width: auto !important; /* Adatta dinamicamente la larghezza */
+    flex-grow: 1; /* Consente alle colonne di crescere proporzionalmente */
+}
+
+/* --- Celle della tabella --- */
+.MuiDataGrid-cell {
+    flex-grow: 1 !important; /* Adatta la cella alla larghezza disponibile */
+    min-width: 0 !important; /* Impedisce larghezze minime indesiderate */
+    background-color: transparent !important; /* Sfondo trasparente */
+    border: none !important; /* Rimuove i bordi */
+}
+
+/* --- Righe della tabella --- */
+.MuiDataGrid-row {
+    border-bottom: 1px solid #343a40;
+    margin: 0 !important; /* Rimuove margini */
+    padding: 0 !important; /* Rimuove padding */
+}
+
+/* --- About colors of rows --- */
+.MuiDataGrid-row:nth-of-type(odd) {
+    background-color: #16181d !important; /* Sfondo per righe dispari, leggermente più scuro del gradiente */
+}
+.MuiDataGrid-row:nth-of-type(even) {
+    background-color: #1c1f26 !important; /* Sfondo per righe pari, tonalità intermedia */
+}
+.MuiDataGrid-row:hover {
+    background-color: #2b3138 !important; /* Sfondo in hover, più chiaro per evidenziare */
+}
+
+/* --- Footer della tabella --- */
+.MuiDataGrid-footerContainer {
+    background-color: #1c1f26 !important; /* Sfondo uniforme */
+    border-top: none !important; /* Rimuove il bordo sopra il footer */
+    padding: 0 !important; /* Rimuove padding */
+}
+
+/* --- Riempitivi della tabella --- */
+.MuiDataGrid-filler, .MuiDataGrid-scrollbarFiller, .MuiDataGrid-columnHeaders, .MuiDataGrid-columnHeader {
+    background-color: #1d2027 !important; /* Sfondo dorato */
+}
