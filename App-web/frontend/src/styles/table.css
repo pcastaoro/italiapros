@@ -15,6 +15,11 @@
     box-shadow: none !important; /* Remove shadow */
 }
 
+/* Hover effect for the Players, Staff, Team buttons */
+.MuiButton-contained:hover {
+    background: linear-gradient(to bottom, #2b3138, #2b3138); /* Apply a vertical gradient background */
+}
+
 /* --- Search field styles --- */
 .MuiOutlinedInput-root {
     margin: 0 !important; /* Remove external margins */

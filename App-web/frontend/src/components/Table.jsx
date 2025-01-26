@@ -26,6 +26,7 @@ export default function DataTable({ data, onButtonClick }) {
                 field: key,
                 headerName: key.charAt(0).toUpperCase() + key.slice(1), // Capitalize the header name.
                 flex: 1, // Allow flexible width for columns.
+                resizable: false // Prevent column resizing.
             }));
         }
         return [];
@@ -58,6 +59,7 @@ export default function DataTable({ data, onButtonClick }) {
     return (
         <Paper sx={{ height: 700, width: '100%', padding: 2 }}>
             <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '8px', marginBottom: '16px' }}>
+
                 {/* Buttons to trigger actions for different table categories */}
                 <Button onClick={() => onButtonClick('PLAYERS')} variant="contained">Players</Button>
                 <Button onClick={() => onButtonClick('STAFF')} variant="contained">Staff</Button>
@@ -70,8 +72,13 @@ export default function DataTable({ data, onButtonClick }) {
                     size="small"
                     value={searchText}
                     onChange={handleSearch}
-                    InputLabelProps={{style: {color: '#ffffff',},}}
+                    InputLabelProps={{style: {color: '#ffffff'}}}
+                    sx={{"& .MuiOutlinedInput-root": {"&:hover .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "transparent",}, "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "transparent",},}, "& .MuiInputLabel-root": {color: "#ffffff"},
+                        "& .MuiOutlinedInput-notchedOutline": {borderColor: "transparent"}}}
                 />
+
             </div>
 
             {/* DataGrid component to render the table */}
@@ -80,7 +87,6 @@ export default function DataTable({ data, onButtonClick }) {
                 columns={columns}
                 loading={loading}
                 pageSizeOptions={[5, 10]}
-                checkboxSelection
                 sx={{ flexGrow: 1, width: '100%', border: 'none' }}
             />
         </Paper>
