@@ -70,6 +70,7 @@ export default function DataTable({ data, onButtonClick }) {
                     size="small"
                     value={searchText}
                     onChange={handleSearch}
+                    InputLabelProps={{style: {color: '#ffffff',},}}
                 />
             </div>
 
