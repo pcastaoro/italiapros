@@ -87,8 +87,9 @@
     background-color: #1d2027 !important; /* Uniform background for fillers */
 }
 
-/* --- Color for the arrow in hover --- */
-.MuiDataGrid-iconButtonContainer.css-ltf0zy-MuiDataGrid-iconButtonContainer > button, .MuiDataGrid-menuIcon > button {
+/* --- Table order and switch page color icons --- */
+.MuiDataGrid-iconButtonContainer.css-ltf0zy-MuiDataGrid-iconButtonContainer > button, .MuiDataGrid-menuIcon > button,
+p.MuiTablePagination-displayedRows.css-11cfq65-MuiTablePagination-displayedRows, .MuiTablePagination-actions button.MuiButtonBase-root  {
     fill: #ffffff;
     color: #ffffff;
 }

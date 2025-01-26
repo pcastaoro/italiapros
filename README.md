@@ -58,6 +58,7 @@ TheGullsEsports/
 - [x] Basic project structure
 - [x] Implementation of Navbar and Footer
 - [x] Development of Secondary Page
+- [x] Development of LOLPage and the Table with .json mock data
 - [] Development of Backend
 
 ## Developer Contacts Pietro
