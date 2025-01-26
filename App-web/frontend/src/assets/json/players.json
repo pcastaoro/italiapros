@@ -1,0 +1,22 @@
+[
+  { "id": 1, "IGN": "ShadowKiller", "AGE": 20, "ROLE": "TOP", "RANK": "Master", "DIV": 1, "TEAM": "T1" },
+  { "id": 2, "IGN": "JungleKing", "AGE": 18, "ROLE": "JUNG", "RANK": "GrandMaster", "DIV": 1, "TEAM": "T1" },
+  { "id": 3, "IGN": "Midnight", "AGE": 22, "ROLE": "Mid", "RANK": "Challenger", "DIV": 1, "TEAM": "T1" },
+  { "id": 4, "IGN": "RapidFire", "AGE": 19, "ROLE": "ADC", "RANK": "Master", "DIV": 1, "TEAM": "T1" },
+  { "id": 5, "IGN": "SilentGuardian", "AGE": 25, "ROLE": "SUPP", "RANK": "GrandMaster", "DIV": 1, "TEAM": "T1" },
+  { "id": 6, "IGN": "Fearless", "AGE": 21, "ROLE": "TOP", "RANK": "GrandMaster", "DIV": 2, "TEAM": "FNATIC" },
+  { "id": 7, "IGN": "WildHunter", "AGE": 23, "ROLE": "JUNG", "RANK": "Master", "DIV": 2, "TEAM": "FNATIC" },
+  { "id": 8, "IGN": "DarkSorcerer", "AGE": 20, "ROLE": "Mid", "RANK": "Challenger", "DIV": 2, "TEAM": "FNATIC" },
+  { "id": 9, "IGN": "BlazingArrow", "AGE": 17, "ROLE": "ADC", "RANK": "GrandMaster", "DIV": 2, "TEAM": "FNATIC" },
+  { "id": 10, "IGN": "ShieldBearer", "AGE": 19, "ROLE": "SUPP", "RANK": "Master", "DIV": 2, "TEAM": "FNATIC" },
+  { "id": 11, "IGN": "IronFist", "AGE": 16, "ROLE": "TOP", "RANK": "Challenger", "DIV": 3, "TEAM": "G2" },
+  { "id": 12, "IGN": "BeastMaster", "AGE": 22, "ROLE": "JUNG", "RANK": "GrandMaster", "DIV": 3, "TEAM": "G2" },
+  { "id": 13, "IGN": "ArcaneMage", "AGE": 24, "ROLE": "Mid", "RANK": "Master", "DIV": 3, "TEAM": "G2" },
+  { "id": 14, "IGN": "SharpShooter", "AGE": 18, "ROLE": "ADC", "RANK": "Challenger", "DIV": 3, "TEAM": "G2" },
+  { "id": 15, "IGN": "FaithfulSoul", "AGE": 23, "ROLE": "SUPP", "RANK": "GrandMaster", "DIV": 3, "TEAM": "G2" },
+  { "id": 16, "IGN": "Titan", "AGE": 19, "ROLE": "TOP", "RANK": "Master", "DIV": 1, "TEAM": "THE GULLS ESPORTS" },
+  { "id": 17, "IGN": "Predator", "AGE": 20, "ROLE": "JUNG", "RANK": "Challenger", "DIV": 1, "TEAM": "THE GULLS ESPORTS" },
+  { "id": 18, "IGN": "Nightmare", "AGE": 21, "ROLE": "Mid", "RANK": "GrandMaster", "DIV": 1, "TEAM": "THE GULLS ESPORTS" },
+  { "id": 19, "IGN": "GoldenArrow", "AGE": 18, "ROLE": "ADC", "RANK": "Master", "DIV": 1, "TEAM": "THE GULLS ESPORTS" },
+  { "id": 20, "IGN": "GuardianAngel", "AGE": 22, "ROLE": "SUPP", "RANK": "Challenger", "DIV": 1, "TEAM": "THE GULLS ESPORTS" }
+]

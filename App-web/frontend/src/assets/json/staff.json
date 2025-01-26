@@ -1,0 +1,14 @@
+[
+  { "id": 1, "IGN": "MasterTactician", "AGE": 35, "ROLE": "Coach", "DIV": 1, "TEAM": "T1" },
+  { "id": 2, "IGN": "StrategicMind", "AGE": 40, "ROLE": "Coach", "DIV": 1, "TEAM": "T1" },
+  { "id": 3, "IGN": "VisionaryLeader", "AGE": 45, "ROLE": "Manager", "DIV": 1, "TEAM": "T1" },
+  { "id": 4, "IGN": "FearlessTrainer", "AGE": 38, "ROLE": "Coach", "DIV": 2, "TEAM": "FNATIC" },
+  { "id": 5, "IGN": "GameChanger", "AGE": 42, "ROLE": "Coach", "DIV": 2, "TEAM": "FNATIC" },
+  { "id": 6, "IGN": "EliteManager", "AGE": 46, "ROLE": "Manager", "DIV": 2, "TEAM": "FNATIC" },
+  { "id": 7, "IGN": "IronWill", "AGE": 37, "ROLE": "Coach", "DIV": 3, "TEAM": "G2" },
+  { "id": 8, "IGN": "BattleGuru", "AGE": 41, "ROLE": "Coach", "DIV": 3, "TEAM": "G2" },
+  { "id": 9, "IGN": "TeamOverseer", "AGE": 44, "ROLE": "Manager", "DIV": 3, "TEAM": "G2" },
+  { "id": 10, "IGN": "VisionaryCoach", "AGE": 36, "ROLE": "Coach", "DIV": 1, "TEAM": "THE GULLS ESPORTS" },
+  { "id": 1, "IGN": "SharpPlanner", "AGE": 39, "ROLE": "Coach", "DIV": 1, "TEAM": "THE GULLS ESPORTS" },
+  { "id": 12, "IGN": "GoldenManager", "AGE": 43, "ROLE": "Manager", "DIV": 1, "TEAM": "THE GULLS ESPORTS" }
+]
