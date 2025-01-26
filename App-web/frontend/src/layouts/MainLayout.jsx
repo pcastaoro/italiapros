@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/global.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import '../styles/background.css';
 
 const MainLayout = ({ children }) => {
     return (
