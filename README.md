@@ -60,6 +60,7 @@ TheGullsEsports/
 - [x] Development of Secondary Page
 - [x] Development of LOLPage and the Table with .json mock data
 - [] Development of Backend
+- [] Refactoring & Improving of Frontend
 
 ## Developer Contacts Pietro
 - **Email**: pcastaoro@gmail.com
