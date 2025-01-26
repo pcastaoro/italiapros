@@ -1,56 +1,60 @@
+/* Container for the "About Us" section */
 .aboutus-container {
-    display: flex; /* Utilizza Flexbox per l'impaginazione */
-    flex-direction: column; /* Gli elementi figli sono disposti in colonna */
-    align-items: flex-start; /* Allinea gli elementi al lato sinistro */
-    justify-content: center; /* Centra gli elementi lungo l'asse verticale */
-    min-height: 89vh; /* Altezza minima relativa alla viewport */
-    padding: 20px 20px; /* Spaziatura interna (verticale e orizzontale) */
-    background: rgba(0, 0, 0, 0.1); /* Sfondo semi-trasparente */
-    border-radius: 10px; /* Angoli arrotondati */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
-    text-align: left; /* Allinea il testo a sinistra */
-    max-width: 1000px; /* Larghezza massima del contenitore */
-    margin: 80px auto auto; /* Margine superiore fisso, centrato orizzontalmente */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center; /* Center items vertically */
+    min-height: 89vh; /* Minimum height relative to the viewport */
+    padding: 20px 20px; /* Internal spacing (vertical and horizontal) */
+    background: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    text-align: left; /* Align text to the left */
+    max-width: 1000px; /* Maximum width of the container */
+    margin: 80px auto auto; /* Fixed top margin, horizontally centered */
 }
 
+/* Shared styles for header, mission, and commitment sections */
 .aboutus-header, .aboutus-mission, .aboutus-commitment {
-    width: auto; /* Si adatta automaticamente al contenuto */
-    margin-bottom: 30px; /* Spaziatura inferiore tra gli elementi */
-    padding: 0; /* Rimuove ogni spaziatura interna */
+    width: auto; /* Automatically adapt to content */
+    margin-bottom: 30px; /* Space below each element */
+    padding: 0; /* Remove internal padding */
 }
 
+/* Title styling for the "About Us" section */
 .aboutus-title {
-    font-size: 36px; /* Dimensione del font per il titolo principale */
-    color: #ffffff; /* Colore del testo */
-    font-family: 'Arial', sans-serif; /* Famiglia di caratteri */
-    font-weight: 600; /* Spessore del testo medio-grassetto */
-    margin: 0; /* Elimina i margini standard */
-    text-align: left; /* Allinea il titolo al lato sinistro */
+    font-size: 36px; /* Font size for the main title */
+    color: #ffffff; /* Text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+    font-weight: 600; /* Medium-bold text weight */
+    margin: 0; /* Remove default margins */
+    text-align: left; /* Align title to the left */
 }
 
+/* Description text styling */
 .aboutus-description {
-    font-size: 16px; /* Dimensione del testo descrittivo */
-    line-height: 1.6; /* Interlinea migliorata per leggibilità */
-    color: rgb(209, 209, 209); /* Colore del testo */
-    font-family: 'Georgia', serif; /* Famiglia di caratteri serif per il contenuto */
-    margin: 0 0 10px 0; /* Spaziatura inferiore tra le descrizioni */
+    font-size: 16px; /* Font size for descriptive text */
+    line-height: 1.6; /* Improved line spacing for readability */
+    color: rgb(209, 209, 209); /* Text color */
+    font-family: 'Georgia', serif; /* Serif font family for content */
+    margin: 0 0 10px 0; /* Space below each paragraph */
 }
 
-/* Responsive design */
+/* Responsive design for smaller screens */
 @media (max-width: 700px) {
     .aboutus-container {
-        padding: 10px; /* Riduce il padding interno per schermi più piccoli */
+        padding: 10px; /* Reduce internal padding for smaller screens */
     }
 
     .aboutus-title {
-        font-size: 28px; /* Riduce la dimensione del titolo per dispositivi mobili */
+        font-size: 28px; /* Reduce title font size for mobile devices */
     }
 
     .aboutus-subtitle {
-        font-size: 20px; /* Riduce la dimensione del sottotitolo per dispositivi mobili */
+        font-size: 20px; /* Reduce subtitle font size for mobile devices */
     }
 
     .aboutus-description {
-        font-size: 16px; /* Mantiene la dimensione del testo della descrizione */
+        font-size: 16px; /* Keep description text size unchanged */
     }
 }

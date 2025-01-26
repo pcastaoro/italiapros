@@ -1,36 +1,40 @@
+/* Styling for the main navigation bar */
 .navbar {
-    display: flex;                            /* Imposta Flexbox per disporre gli elementi figli in una riga */
-    justify-content: flex-start;              /* Allinea gli elementi orizzontalmente a sinistra */
-    align-items: center;                      /* Allinea gli elementi verticalmente al centro */
-    position: fixed;                          /* Fissa la navbar nella parte superiore della pagina */
-    inset: 0 0 auto 0;                        /* Imposta top, right e left a 0, lasciando auto il bottom */
-    height: 60px;                             /* Imposta l'altezza della navbar a 60px */
-    width: 100%;                              /* La navbar occupa il 100% della larghezza */
-    padding: 0;                               /* Rimuove ogni padding interno */
-    margin: 0;                                /* Rimuove ogni margine esterno */
-    background: linear-gradient(to bottom, #1c1f26, #20292f); /* Applica un gradiente di sfondo verticale */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Aggiunge un bordo inferiore sottile e semi-trasparente */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera sotto la navbar */
+    display: flex; /* Use Flexbox layout to arrange child elements in a row */
+    justify-content: flex-start; /* Align child elements to the left */
+    align-items: center; /* Center child elements vertically */
+    position: fixed; /* Fix the navbar at the top of the page */
+    inset: 0 0 auto 0; /* Set top, right, and left to 0, leaving bottom as auto */
+    height: 60px; /* Set the navbar height to 60px */
+    width: 100%; /* Make the navbar span the full width of the viewport */
+    padding: 0; /* Remove internal padding */
+    margin: 0; /* Remove external margins */
+    background: linear-gradient(to bottom, #1c1f26, #20292f); /* Apply a vertical gradient background */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Add a thin, semi-transparent bottom border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow below the navbar */
 }
 
+/* Styling for the logo button in the navbar */
 .logo-button {
-    background: none;                         /* Rimuove lo sfondo del pulsante */
-    border: none;                             /* Rimuove il bordo del pulsante */
-    cursor: pointer;                          /* Cambia il cursore in "puntatore" quando si passa sopra il pulsante */
-    padding: 0;                               /* Rimuove il padding interno del pulsante */
-    margin: 0;                                /* Rimuove il margine esterno del pulsante */
-    display: flex;                            /* Imposta Flexbox per disporre gli elementi interni */
-    align-items: center;                      /* Allinea gli elementi interni verticalmente al centro */
-    justify-content: flex-end;                /* Allinea gli elementi interni orizzontalmente a destra */
-    transition: transform 0.5s ease, filter 0.5s ease; /* Anima la trasformazione e il filtro con una durata di 0.5s */
+    background: none; /* Remove background from the button */
+    border: none; /* Remove border from the button */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    padding: 0; /* Remove internal padding from the button */
+    margin: 0; /* Remove external margins from the button */
+    display: flex; /* Use Flexbox for internal layout */
+    align-items: center; /* Center internal elements vertically */
+    justify-content: flex-end; /* Align internal elements to the right */
+    transition: transform 0.5s ease, filter 0.5s ease; /* Animate transformations and filter changes over 0.5s */
 }
 
+/* Styling for the logo icon inside the logo button */
 .logo-icon {
-    width: 40px;                              /* Imposta la larghezza dell'icona del logo a 40px */
-    height: 40px;                             /* Imposta l'altezza dell'icona del logo a 40px */
-    margin-left: 10px;                        /* Aggiunge un margine di 10px a sinistra del logo */
+    width: 40px; /* Set the width of the logo icon to 40px */
+    height: 40px; /* Set the height of the logo icon to 40px */
+    margin-left: 10px; /* Add 10px margin to the left of the logo icon */
 }
 
+/* Hover effect for enabled logo buttons */
 .navbar .logo-button:not(:disabled):hover {
-    transform: scale(1.2);                    /* Ingrandisce il pulsante del 20% quando si passa sopra con il mouse */
+    transform: scale(1.2); /* Enlarge the button by 20% on hover */
 }

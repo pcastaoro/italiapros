@@ -58,6 +58,7 @@ TheGullsEsports/
 - [x] Basic project structure
 - [x] Implementation of Navbar and Footer
 - [x] Development of Secondary Page
+- [] Development of Backend
 
 ## Developer Contacts Pietro
 - **Email**: pcastaoro@gmail.com

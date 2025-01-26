@@ -1,36 +1,41 @@
+/* Container for navbar buttons on the League of Legends page */
 .navbar-button-container {
-    position: absolute;          /* Posiziona il contenitore in modo assoluto rispetto al primo elemento posizionato antenato */
-    top: 10px;                   /* Distanza di 10px dal bordo superiore del contenitore principale */
-    right: 10px;                 /* Distanza di 10px dal bordo destro del contenitore principale */
-    display: flex;               /* Imposta un layout flessibile per disporre i pulsanti in una riga o colonna */
-    gap: 10px;                   /* Spaziatura di 10px tra i pulsanti */
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 10px; /* Distance of 10px from the top edge of the main container */
+    right: 10px; /* Distance of 10px from the right edge of the main container */
+    display: flex; /* Use Flexbox layout for arranging buttons */
+    gap: 10px; /* Space of 10px between buttons */
 }
 
+/* Styling for buttons in the navbar */
 .navbar-lol-button {
-    padding: 12px 24px;          /* Spaziatura interna di 12px in alto e in basso, 24px ai lati */
-    background-color: rgba(46, 46, 55, 0.1); /* Colore di sfondo semi-trasparente */
-    color: #ffffff;              /* Colore del testo bianco */
-    font-size: 15px;             /* Dimensione del testo di 15px */
-    font-weight: bold;           /* Testo in grassetto */
-    border: none;                /* Nessun bordo */
-    border-radius: 8px;          /* Angoli arrotondati di 8px */
-    cursor: pointer;             /* Cambia il cursore in "puntatore" quando si passa sopra il pulsante */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera sotto il pulsante */
-    transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.3s ease; /* Anima la trasformazione, l'ombra e il colore di sfondo */
+    padding: 12px 24px; /* Internal padding: 12px top/bottom, 24px left/right */
+    background-color: rgba(46, 46, 55, 0.1); /* Semi-transparent background color */
+    color: #ffffff; /* Text color set to white */
+    font-size: 15px; /* Font size set to 15px */
+    font-weight: bold; /* Bold text */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners with a radius of 8px */
+    cursor: pointer; /* Pointer cursor when hovering over the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow under the button */
+    transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.3s ease; /* Animate transform, shadow, and background changes */
 }
 
+/* Hover effect for navbar buttons */
 .navbar-lol-button:hover {
-    transform: scale(1.1);       /* Aumenta la dimensione del pulsante del 10% quando il mouse passa sopra */
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Ombra più pronunciata in hover */
-    background-color: rgba(46, 46, 55, 0.3); /* Sfondo leggermente meno trasparente in hover */
+    transform: scale(1.1); /* Increase button size by 10% on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+    background-color: rgba(46, 46, 55, 0.3); /* Slightly less transparent background on hover */
 }
 
+/* Active state effect for navbar buttons */
 .navbar-lol-button:active {
-    transform: translateY(2px);  /* Abbassa il pulsante di 2px simulando un effetto di pressione */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra più ridotta durante la pressione */
+    transform: translateY(2px); /* Simulate a press effect by moving button down by 2px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow intensity on press */
 }
 
+/* Styling for the main container on the League of Legends page */
 .lolpage-container {
-    margin-top: 50px; /* Per rispettare il margine dalla navbar */
-    padding: 20px;
+    margin-top: 50px; /* Maintain margin from the navbar */
+    padding: 20px; /* Internal padding */
 }
