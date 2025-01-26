@@ -89,7 +89,10 @@
 
 /* --- Table order and switch page color icons --- */
 .MuiDataGrid-iconButtonContainer.css-ltf0zy-MuiDataGrid-iconButtonContainer > button, .MuiDataGrid-menuIcon > button,
-p.MuiTablePagination-displayedRows.css-11cfq65-MuiTablePagination-displayedRows, .MuiTablePagination-actions button.MuiButtonBase-root  {
+p.MuiTablePagination-displayedRows.css-11cfq65-MuiTablePagination-displayedRows,
+.MuiTablePagination-actions button.MuiButtonBase-root, .MuiDataGrid-menuList .MuiTypography-root,
+.MuiDataGrid-menuList .MuiListItemIcon-root svg, .MuiDataGrid-menuList .MuiListItemIcon-root path,
+.MuiDataGrid-menuList .MuiListItemIcon-root g {
     fill: #ffffff;
     color: #ffffff;
 }
