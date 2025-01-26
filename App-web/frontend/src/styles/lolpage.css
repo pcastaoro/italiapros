@@ -1,4 +1,4 @@
-.button-container {
+.navbar-button-container {
     position: absolute;          /* Posiziona il contenitore in modo assoluto rispetto al primo elemento posizionato antenato */
     top: 10px;                   /* Distanza di 10px dal bordo superiore del contenitore principale */
     right: 10px;                 /* Distanza di 10px dal bordo destro del contenitore principale */
@@ -6,7 +6,7 @@
     gap: 10px;                   /* Spaziatura di 10px tra i pulsanti */
 }
 
-.lol-button {
+.navbar-lol-button {
     padding: 12px 24px;          /* Spaziatura interna di 12px in alto e in basso, 24px ai lati */
     background-color: rgba(46, 46, 55, 0.1); /* Colore di sfondo semi-trasparente */
     color: #ffffff;              /* Colore del testo bianco */
@@ -19,13 +19,13 @@
     transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.3s ease; /* Anima la trasformazione, l'ombra e il colore di sfondo */
 }
 
-.lol-button:hover {
+.navbar-lol-button:hover {
     transform: scale(1.1);       /* Aumenta la dimensione del pulsante del 10% quando il mouse passa sopra */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Ombra più pronunciata in hover */
     background-color: rgba(46, 46, 55, 0.3); /* Sfondo leggermente meno trasparente in hover */
 }
 
-.lol-button:active {
+.navbar-lol-button:active {
     transform: translateY(2px);  /* Abbassa il pulsante di 2px simulando un effetto di pressione */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra più ridotta durante la pressione */
 }
@@ -33,8 +33,4 @@
 .lolpage-container {
     margin-top: 50px; /* Per rispettare il margine dalla navbar */
     padding: 20px;
-}
-
-.table-container {
-    margin-top: 20px;
 }
