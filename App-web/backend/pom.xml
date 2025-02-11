@@ -13,10 +13,10 @@
     </parent>
 
     <groupId>com</groupId>
-    <artifactId>italiapros</artifactId>
+    <artifactId>backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ItaliaPros Project</name>
-    <description>ItaliaPros Project</description>
+    <description>ItaliaPros is a platform for the Italian esports community.</description>
 
     <properties>
         <java.version>23</java.version>
